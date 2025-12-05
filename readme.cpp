@@ -1,0 +1,53 @@
+ASSIGNMENT-3
+s
+
+Tic Tac Toe
+
+
+A simple, terminal-based Tic Tac Toe game written in C. Two players take turns marking spaces in a 3×3 grid until one player wins or the game ends in a draw.
+
+? Features
+
+Two-player local gameplay (Player X and Player O)
+
+Input validation to prevent invalid or duplicated moves
+
+Clear display of the game board after every turn
+
+Win and draw detection
+
+Simple and readable C implementation
+
+??? How to Compile
+
+Use gcc (or any C compiler):
+
+gcc tic_tac_toe.c -o tic_tac_toe
+
+
+If your file has multiple C files, list them all:
+
+gcc main.c game.c board.c -o tic_tac_toe
+
+?? How to Run
+./tic_tac_toe
+
+?? How to Play
+
+The game shows a 3×3 board with positions numbered 1–9.
+
+Players take turns entering the number corresponding to the desired move.
+
+The program updates the board and checks for:
+
+Win (three in a row)
+
+Draw (board full)
+
+The game prints the result and exits.
+
+?? File Structure (example)
+tic_tac_toe/
++-- tic_tac_toe.c     # main game source
++-- README.md         # documentation
++-- Makefile          # optional build script
