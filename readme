@@ -4,7 +4,7 @@ s
 Tic Tac Toe
 
 
-A simple, terminal-based Tic Tac Toe game written in C. Two players take turns marking spaces in a 3×3 grid until one player wins or the game ends in a draw.
+A simple, terminal-based Tic Tac Toe game written in C. Two players take turns marking spaces in a 3Ã—3 grid until one player wins or the game ends in a draw.
 
 ? Features
 
@@ -34,7 +34,7 @@ gcc main.c game.c board.c -o tic_tac_toe
 
 ?? How to Play
 
-The game shows a 3×3 board with positions numbered 1–9.
+The game shows a 3Ã—3 board with positions numbered 1â€“9.
 
 Players take turns entering the number corresponding to the desired move.
 
